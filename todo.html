@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Tasks</title>
+</head>
+<body>
+    <h1>Tasks</h1>
+    <p>Click once to cross-out, click twice to remove.</p>
+    <ul id="taskList" aria-live="polite">
+        <!-- Tasks will be dynamically added here -->
+    </ul>
+    <form action="#" id="newTaskForm">
+        <label for="task">Task: </label>
+        <input type="text" name="task" id="task" autofocus>
+        <button type="submit">Add Task</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
